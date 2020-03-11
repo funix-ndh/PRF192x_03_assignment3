@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Chore Door!</title>
+  <link href="https://fonts.googleapis.com/css?family=Work+Sans" rel="stylesheet" type="text/css">
+  <link href="./style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+  <div id="head">
+    <img src="./images/logo.svg" alt="logo" title="logo">
+  </div>
+  <div id="container">
+    <div id="instructions">
+      <img src="./images/star.svg" alt="star" title="star">
+      <h3>Instructions</h3>
+      <img src="./images/star.svg" alt="star" title="star">
+    </div>
+    <div id="content">
+      <ol>
+        <li>Hiding behind one of these doors is the ChoreBot.</li>
+        <li>Your mission is to open all of the doors without running into the ChoreBot</li>
+        <li>If you manage to avoid the ChoreBot until the very last door, you win!</li>
+        <li>See if you can score a winning streak!</li>
+      </ol>
+    </div>
+    <div>
+      <img index="0" src="./images/closed_door.svg" alt="door" title="door" class="game">
+      <img index="1"src="./images/closed_door.svg" alt="door" title="door" class="game">
+      <img index="2"src="./images/closed_door.svg" alt="door" title="door" class="game">
+    </div>
+    <div id="info">
+      Good luck!
+    </div>
+    <div id="score">
+      <div class="streak">
+        <p>Current steak:</p>
+        <div id="current-streak" class="score-streak">
+          0
+        </div>
+      </div>
+      <div class="streak">
+        <p>Best streak:</p>
+        <div id="best-streak" class="score-streak">
+          0
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="./script.js"></script>
+</body>
+
+</html>
